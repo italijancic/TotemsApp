@@ -1,0 +1,263 @@
+1623165316: mosquitto version 2.0.10 starting
+1623165316: Config loaded from /mosquitto/config/mosquitto.conf.
+1623165316: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1623165316: Create a configuration file which defines a listener to allow remote access.
+1623165316: For more details see https://mosquitto.org/documentation/authentication-methods/
+1623165316: Opening ipv4 listen socket on port 1883.
+1623165316: Opening ipv6 listen socket on port 1883.
+1623165316: Error: Address not available
+1623165316: mosquitto version 2.0.10 running
+1623165702: New connection from 127.0.0.1:38750 on port 1883.
+1623165702: New client connected from 127.0.0.1:38750 as auto-1C36E9CF-A222-F1CD-6C51-6EDDAD890775 (p2, c1, k60, u'mosquitto').
+1623165733: Client auto-1C36E9CF-A222-F1CD-6C51-6EDDAD890775 disconnected.
+1623165830: New connection from 127.0.0.1:38752 on port 1883.
+1623165830: New client connected from 127.0.0.1:38752 as auto-328A3940-8E86-67B9-0452-56FFB4E46E20 (p2, c1, k60, u'mosquitto').
+1623165854: New connection from 127.0.0.1:38754 on port 1883.
+1623165854: New client connected from 127.0.0.1:38754 as auto-5D7C807C-E57A-5427-0FF3-13527253F8FD (p2, c1, k60, u'mosquitto').
+1623165854: Client auto-5D7C807C-E57A-5427-0FF3-13527253F8FD disconnected.
+1623165905: New connection from 127.0.0.1:38756 on port 1883.
+1623165905: New client connected from 127.0.0.1:38756 as auto-CEAAD35A-938C-2DB6-DFE1-8638ED219FB6 (p2, c1, k60, u'mosquitto').
+1623165905: Client auto-CEAAD35A-938C-2DB6-DFE1-8638ED219FB6 disconnected.
+1623165920: New connection from 127.0.0.1:38758 on port 1883.
+1623165920: New client connected from 127.0.0.1:38758 as auto-01856119-CE0A-B0E7-A01D-E9728B797F79 (p2, c1, k60, u'mosquitto').
+1623165920: Client auto-01856119-CE0A-B0E7-A01D-E9728B797F79 disconnected.
+1623165930: Client auto-328A3940-8E86-67B9-0452-56FFB4E46E20 disconnected.
+1623166121: mosquitto version 2.0.10 terminating
+1623166121: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1623166139: mosquitto version 2.0.10 starting
+1623166139: Config loaded from /mosquitto/config/mosquitto.conf.
+1623166139: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1623166139: Create a configuration file which defines a listener to allow remote access.
+1623166139: For more details see https://mosquitto.org/documentation/authentication-methods/
+1623166139: Opening ipv4 listen socket on port 1883.
+1623166139: Opening ipv6 listen socket on port 1883.
+1623166139: Error: Address not available
+1623166139: mosquitto version 2.0.10 running
+1623166251: New connection from 127.0.0.1:38774 on port 1883.
+1623166251: New client connected from 127.0.0.1:38774 as auto-D0AA83EE-0968-AD42-8846-1586543FAECC (p2, c1, k60, u'mosquitto').
+1623166281: New connection from 127.0.0.1:38776 on port 1883.
+1623166281: New client connected from 127.0.0.1:38776 as auto-F14DAA2A-B611-A046-F412-AE2AF404C230 (p2, c1, k60, u'mosquitto').
+1623166281: Client auto-F14DAA2A-B611-A046-F412-AE2AF404C230 disconnected.
+1623166303: Client auto-D0AA83EE-0968-AD42-8846-1586543FAECC disconnected.
+1623166327: mosquitto version 2.0.10 terminating
+1623166327: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1623193086: mosquitto version 2.0.10 starting
+1623193086: Config loaded from /mosquitto/config/mosquitto.conf.
+1623193086: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1623193086: Create a configuration file which defines a listener to allow remote access.
+1623193086: For more details see https://mosquitto.org/documentation/authentication-methods/
+1623193086: Opening ipv4 listen socket on port 1883.
+1623193086: Opening ipv6 listen socket on port 1883.
+1623193086: Error: Address not available
+1623193086: mosquitto version 2.0.10 running
+1623194409: mosquitto version 2.0.10 terminating
+1623194409: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1623194438: mosquitto version 2.0.10 starting
+1623194438: Config loaded from /mosquitto/config/mosquitto.conf.
+1623194438: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1623194438: Create a configuration file which defines a listener to allow remote access.
+1623194438: For more details see https://mosquitto.org/documentation/authentication-methods/
+1623194438: Opening ipv4 listen socket on port 1883.
+1623194438: Opening ipv6 listen socket on port 1883.
+1623194438: Error: Address not available
+1623194438: mosquitto version 2.0.10 running
+1623194675: New connection from 127.0.0.1:38000 on port 1883.
+1623194675: New client connected from 127.0.0.1:38000 as auto-67AF3EDB-0D8D-E07F-D17E-BFE512FB0C9F (p2, c1, k60).
+1623194675: Client auto-67AF3EDB-0D8D-E07F-D17E-BFE512FB0C9F disconnected.
+1623194844: New connection from 127.0.0.1:38002 on port 1883.
+1623194844: New client connected from 127.0.0.1:38002 as auto-1C8D2246-30B2-5636-412D-70077C5EC75E (p2, c1, k60).
+1623194844: Client auto-1C8D2246-30B2-5636-412D-70077C5EC75E disconnected.
+1623194849: New connection from 127.0.0.1:38004 on port 1883.
+1623194849: New client connected from 127.0.0.1:38004 as auto-39E2CD5F-9571-2DCA-4AE1-DA0DC0DBE454 (p2, c1, k60).
+1623194849: Client auto-39E2CD5F-9571-2DCA-4AE1-DA0DC0DBE454 disconnected.
+1623194851: New connection from 127.0.0.1:38006 on port 1883.
+1623194851: New client connected from 127.0.0.1:38006 as auto-CA76CA76-89DF-CB4B-3D06-088342EF55E9 (p2, c1, k60).
+1623194851: Client auto-CA76CA76-89DF-CB4B-3D06-088342EF55E9 disconnected.
+1623194873: New connection from 127.0.0.1:38008 on port 1883.
+1623194873: New client connected from 127.0.0.1:38008 as auto-C7ED3E68-6730-D363-62DF-2241F81D9295 (p2, c1, k60).
+1623194873: Client auto-C7ED3E68-6730-D363-62DF-2241F81D9295 disconnected.
+1623195053: New connection from 127.0.0.1:38016 on port 1883.
+1623195053: New client connected from 127.0.0.1:38016 as auto-F76BFE68-23CB-A54D-F8BF-1E5C870F3AE9 (p2, c1, k60).
+1623195053: Client auto-F76BFE68-23CB-A54D-F8BF-1E5C870F3AE9 disconnected.
+1623196238: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1623196537: New connection from 127.0.0.1:38162 on port 1883.
+1623196537: New client connected from 127.0.0.1:38162 as auto-630A065D-9B65-1D43-C295-15DB560B6520 (p2, c1, k60).
+1623196537: Client auto-630A065D-9B65-1D43-C295-15DB560B6520 disconnected.
+1623196595: mosquitto version 2.0.10 terminating
+1623196595: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1623196666: mosquitto version 2.0.10 starting
+1623196666: Config loaded from /mosquitto/config/mosquitto.conf.
+1623196666: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1623196666: Create a configuration file which defines a listener to allow remote access.
+1623196666: For more details see https://mosquitto.org/documentation/authentication-methods/
+1623196666: Opening ipv4 listen socket on port 1883.
+1623196666: Opening ipv6 listen socket on port 1883.
+1623196666: Error: Address not available
+1623196666: mosquitto version 2.0.10 running
+1623198466: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1623198803: mosquitto version 2.0.10 terminating
+1623198803: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1623198841: mosquitto version 2.0.10 starting
+1623198841: Config loaded from /mosquitto/config/mosquitto.conf.
+1623198841: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1623198841: Create a configuration file which defines a listener to allow remote access.
+1623198841: For more details see https://mosquitto.org/documentation/authentication-methods/
+1623198841: Opening ipv4 listen socket on port 1883.
+1623198841: Opening ipv6 listen socket on port 1883.
+1623198841: Error: Address not available
+1623198841: mosquitto version 2.0.10 running
+1623200641: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1623200881: mosquitto version 2.0.10 terminating
+1623200881: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1623200907: mosquitto version 2.0.10 starting
+1623200907: Config loaded from /mosquitto/config/mosquitto.conf.
+1623200907: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1623200907: Create a configuration file which defines a listener to allow remote access.
+1623200907: For more details see https://mosquitto.org/documentation/authentication-methods/
+1623200907: Opening ipv4 listen socket on port 1883.
+1623200907: Opening ipv6 listen socket on port 1883.
+1623200907: Error: Address not available
+1623200907: mosquitto version 2.0.10 running
+1623201141: mosquitto version 2.0.10 terminating
+1623201141: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1623201159: mosquitto version 2.0.10 starting
+1623201159: Config loaded from /mosquitto/config/mosquitto.conf.
+1623201159: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1623201159: Create a configuration file which defines a listener to allow remote access.
+1623201159: For more details see https://mosquitto.org/documentation/authentication-methods/
+1623201159: Opening ipv4 listen socket on port 1883.
+1623201159: Opening ipv6 listen socket on port 1883.
+1623201159: Error: Address not available
+1623201159: mosquitto version 2.0.10 running
+1623201251: mosquitto version 2.0.10 terminating
+1623201251: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1623201269: mosquitto version 2.0.10 starting
+1623201269: Config loaded from /mosquitto/config/mosquitto.conf.
+1623201269: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1623201269: Create a configuration file which defines a listener to allow remote access.
+1623201269: For more details see https://mosquitto.org/documentation/authentication-methods/
+1623201269: Opening ipv4 listen socket on port 1883.
+1623201269: Opening ipv6 listen socket on port 1883.
+1623201269: Error: Address not available
+1623201269: mosquitto version 2.0.10 running
+1623201667: mosquitto version 2.0.10 terminating
+1623201667: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1623243435: mosquitto version 2.0.10 starting
+1623243435: Config loaded from /mosquitto/config/mosquitto.conf.
+1623243435: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1623243435: Create a configuration file which defines a listener to allow remote access.
+1623243435: For more details see https://mosquitto.org/documentation/authentication-methods/
+1623243435: Opening ipv4 listen socket on port 1883.
+1623243435: Opening ipv6 listen socket on port 1883.
+1623243435: Error: Address not available
+1623243435: mosquitto version 2.0.10 running
+1623244410: New connection from 127.0.0.1:50076 on port 1883.
+1623244410: New client connected from 127.0.0.1:50076 as auto-6D6066C9-3ACB-8A16-83EC-2CDF4AED120D (p2, c1, k60).
+1623244410: Client auto-6D6066C9-3ACB-8A16-83EC-2CDF4AED120D disconnected.
+1623244942: New connection from 127.0.0.1:50306 on port 1883.
+1623244942: New client connected from 127.0.0.1:50306 as auto-645432FB-FBD3-1042-894D-99602C7C2AF1 (p2, c1, k60).
+1623244973: New connection from 127.0.0.1:50322 on port 1883.
+1623244973: New client connected from 127.0.0.1:50322 as auto-31481040-0F83-B9FC-4486-5DF909514FBE (p2, c1, k60).
+1623244973: Client auto-31481040-0F83-B9FC-4486-5DF909514FBE disconnected.
+1623244981: New connection from 127.0.0.1:50326 on port 1883.
+1623244981: New client connected from 127.0.0.1:50326 as auto-65AEF7FD-CF56-D0D9-CAFD-5DB53373ABE4 (p2, c1, k60).
+1623244981: Client auto-65AEF7FD-CF56-D0D9-CAFD-5DB53373ABE4 disconnected.
+1623245001: Client auto-645432FB-FBD3-1042-894D-99602C7C2AF1 disconnected.
+1623245057: New connection from 127.0.0.1:50358 on port 1883.
+1623245057: New client connected from 127.0.0.1:50358 as auto-8E4911CB-2BC2-6AAC-B7F9-BE61A84032CB (p2, c1, k60).
+1623245080: New connection from 127.0.0.1:50370 on port 1883.
+1623245080: New client connected from 127.0.0.1:50370 as auto-AA137E8C-CBC9-BCEF-DB64-D9C98E4C8540 (p2, c1, k60).
+1623245080: Client auto-AA137E8C-CBC9-BCEF-DB64-D9C98E4C8540 disconnected.
+1623245083: New connection from 127.0.0.1:50374 on port 1883.
+1623245083: New client connected from 127.0.0.1:50374 as auto-7FACE840-4444-128B-AA91-55A323C76422 (p2, c1, k60).
+1623245083: Client auto-7FACE840-4444-128B-AA91-55A323C76422 disconnected.
+1623245089: New connection from 127.0.0.1:50378 on port 1883.
+1623245089: New client connected from 127.0.0.1:50378 as auto-E2C2518D-E720-6316-BDA9-93B5C770F07F (p2, c1, k60).
+1623245089: Client auto-E2C2518D-E720-6316-BDA9-93B5C770F07F disconnected.
+1623245235: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1623245902: Client auto-8E4911CB-2BC2-6AAC-B7F9-BE61A84032CB disconnected.
+1623245922: mosquitto version 2.0.10 terminating
+1623245922: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1623246047: mosquitto version 2.0.10 starting
+1623246047: Config loaded from /mosquitto/config/mosquitto.conf.
+1623246047: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1623246047: Create a configuration file which defines a listener to allow remote access.
+1623246047: For more details see https://mosquitto.org/documentation/authentication-methods/
+1623246047: Opening ipv4 listen socket on port 1883.
+1623246047: Opening ipv6 listen socket on port 1883.
+1623246047: Error: Address not available
+1623246047: mosquitto version 2.0.10 running
+1623246086: mosquitto version 2.0.10 terminating
+1623246086: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1623246117: mosquitto version 2.0.10 starting
+1623246117: Config loaded from /mosquitto/config/mosquitto.conf.
+1623246117: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1623246117: Create a configuration file which defines a listener to allow remote access.
+1623246117: For more details see https://mosquitto.org/documentation/authentication-methods/
+1623246117: Opening ipv4 listen socket on port 1883.
+1623246117: Opening ipv6 listen socket on port 1883.
+1623246117: Error: Address not available
+1623246117: mosquitto version 2.0.10 running
+1623246275: mosquitto version 2.0.10 terminating
+1623246275: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1623246628: mosquitto version 2.0.10 starting
+1623246628: Config loaded from /mosquitto/config/mosquitto.conf.
+1623246628: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1623246628: Create a configuration file which defines a listener to allow remote access.
+1623246628: For more details see https://mosquitto.org/documentation/authentication-methods/
+1623246628: Opening ipv4 listen socket on port 1883.
+1623246628: Opening ipv6 listen socket on port 1883.
+1623246628: Error: Address not available
+1623246628: mosquitto version 2.0.10 running
+1623246736: New connection from 127.0.0.1:51168 on port 1883.
+1623246736: New client connected from 127.0.0.1:51168 as auto-01D36981-DA05-F6F4-C7CA-B4410851EB2A (p2, c1, k60).
+1623246738: New connection from 127.0.0.1:51170 on port 1883.
+1623246738: New client connected from 127.0.0.1:51170 as auto-48CCBCDB-44CC-2178-2ECC-ABEF81A940FC (p2, c1, k60).
+1623246738: Client auto-48CCBCDB-44CC-2178-2ECC-ABEF81A940FC disconnected.
+1623246741: Client auto-01D36981-DA05-F6F4-C7CA-B4410851EB2A disconnected.
+1623248429: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1623249008: New connection from 127.0.0.1:52348 on port 1883.
+1623249008: New client connected from 127.0.0.1:52348 as auto-ABD0E06E-2AC7-75D0-842D-D478CE3DF4A4 (p2, c1, k60).
+1623249008: Client auto-ABD0E06E-2AC7-75D0-842D-D478CE3DF4A4 disconnected.
+1623249031: New connection from 127.0.0.1:52360 on port 1883.
+1623249031: New client connected from 127.0.0.1:52360 as auto-C5BF6D5D-A146-3CB2-5CCC-ACCFF35DA083 (p2, c1, k60).
+1623249032: Client auto-C5BF6D5D-A146-3CB2-5CCC-ACCFF35DA083 disconnected.
+1623249107: New connection from 127.0.0.1:52416 on port 1883.
+1623249107: New client connected from 127.0.0.1:52416 as auto-E32AABA9-95C4-8D60-E73A-51E43E2C5DD8 (p2, c1, k60).
+1623249107: Client auto-E32AABA9-95C4-8D60-E73A-51E43E2C5DD8 disconnected.
+1623249111: New connection from 127.0.0.1:52420 on port 1883.
+1623249111: New client connected from 127.0.0.1:52420 as auto-2C75CF6E-7009-4DB9-0682-8CFE80354C5C (p2, c1, k60).
+1623249111: Client auto-2C75CF6E-7009-4DB9-0682-8CFE80354C5C disconnected.
+1623250079: New connection from 127.0.0.1:52716 on port 1883.
+1623250079: New client connected from 127.0.0.1:52716 as auto-34140DB8-5C8C-3DB9-6E21-098EAF9C4961 (p2, c1, k60).
+1623250079: Client auto-34140DB8-5C8C-3DB9-6E21-098EAF9C4961 disconnected.
+1623250089: New connection from 127.0.0.1:52722 on port 1883.
+1623250089: New client connected from 127.0.0.1:52722 as auto-EA28BA9A-D521-B2A9-C672-3416FF407E3A (p2, c1, k60).
+1623250089: Client auto-EA28BA9A-D521-B2A9-C672-3416FF407E3A disconnected.
+1623250193: New connection from 127.0.0.1:52768 on port 1883.
+1623250193: New client connected from 127.0.0.1:52768 as auto-9F01D637-C92A-55FE-F1AD-A77D3B07B511 (p2, c1, k60).
+1623250193: Client auto-9F01D637-C92A-55FE-F1AD-A77D3B07B511 disconnected.
+1623250194: New connection from 127.0.0.1:52770 on port 1883.
+1623250194: New client connected from 127.0.0.1:52770 as auto-DBE1E233-EA04-12CC-D421-920918FBE390 (p2, c1, k60).
+1623250194: Client auto-DBE1E233-EA04-12CC-D421-920918FBE390 disconnected.
+1623250195: New connection from 127.0.0.1:52772 on port 1883.
+1623250195: New client connected from 127.0.0.1:52772 as auto-C3A4F31D-188F-914F-C4B3-068E86DE02EC (p2, c1, k60).
+1623250195: Client auto-C3A4F31D-188F-914F-C4B3-068E86DE02EC disconnected.
+1623250197: New connection from 127.0.0.1:52774 on port 1883.
+1623250197: New client connected from 127.0.0.1:52774 as auto-8534A577-7908-5E1D-4D66-AF06B691434A (p2, c1, k60).
+1623250197: Client auto-8534A577-7908-5E1D-4D66-AF06B691434A disconnected.
+1623250230: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1623250516: New connection from 127.0.0.1:52804 on port 1883.
+1623250516: New client connected from 127.0.0.1:52804 as auto-D416EC62-FB85-9D23-1FB0-360F9398D454 (p2, c1, k60).
+1623250516: Client auto-D416EC62-FB85-9D23-1FB0-360F9398D454 disconnected.
+1623250530: New connection from 127.0.0.1:52880 on port 1883.
+1623250530: New client connected from 127.0.0.1:52880 as auto-DEB1720C-0164-A258-CB80-7CF12F1BC082 (p2, c1, k60).
+1623250530: Client auto-DEB1720C-0164-A258-CB80-7CF12F1BC082 disconnected.
+1623250538: New connection from 127.0.0.1:52886 on port 1883.
+1623250538: New client connected from 127.0.0.1:52886 as auto-B890CA1C-1FD8-95DB-7BB6-BB7665BA5BA3 (p2, c1, k60).
+1623250538: Client auto-B890CA1C-1FD8-95DB-7BB6-BB7665BA5BA3 disconnected.
+1623251233: New connection from 127.0.0.1:53160 on port 1883.
+1623251233: New client connected from 127.0.0.1:53160 as auto-A866A906-AFD1-A3E6-E6BB-65143BD42324 (p2, c1, k60).
+1623251233: Client auto-A866A906-AFD1-A3E6-E6BB-65143BD42324 disconnected.
+1623251298: mosquitto version 2.0.10 terminating
+1623251298: Saving in-memory database to /mosquitto/data//mosquitto.db.

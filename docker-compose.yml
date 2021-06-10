@@ -1,0 +1,54 @@
+# Use root/example as user/password credentials
+version: '3.1'
+
+services:
+
+    web:
+        build: ./app
+        image: dev/totems_app:1.0.1-dev
+        command: python manage.py runserver 0.0.0.0:8000
+        volumes:
+            - ./app/:/usr/src/app/
+        ports:
+            - 8000:8000
+            - 5555:5555
+        depends_on:
+            - mongo
+            - redis
+            - mosquitto
+
+    mongo:
+        image: mongo
+        restart: always
+        volumes:
+            - mongo_data:/data/db
+        environment:
+            MONGO_INITDB_ROOT_USERNAME: dev_user
+            MONGO_INITDB_ROOT_PASSWORD: password
+
+    mongo-express:
+        image: mongo-express
+        restart: always
+        ports:
+            - 8081:8081
+        environment:
+            ME_CONFIG_MONGODB_ADMINUSERNAME: dev_user
+            ME_CONFIG_MONGODB_ADMINPASSWORD: password
+
+    redis:
+        image: redis:alpine
+        restart: always
+
+    mosquitto:
+        image: eclipse-mosquitto
+        restart: always
+        volumes:
+            - ./mosquitto/data/:/mosquitto/data
+            - ./mosquitto/log/:/mosquitto/log
+            - ./mosquitto/config/:/mosquitto/config
+        environment:
+            MOSQUITTO_USERNAME: totems
+            MOSQUITTO_PASSWORD: 123456789
+
+volumes:
+  mongo_data:
