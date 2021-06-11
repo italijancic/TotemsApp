@@ -11,7 +11,7 @@ ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
 # install dependecies
-# RUN apk update
+RUN apt-get update && apt-get install vim -y
 
 # install dependencies
 RUN pip install --upgrade pip

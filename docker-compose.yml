@@ -42,6 +42,8 @@ services:
     mosquitto:
         image: eclipse-mosquitto
         restart: always
+        expose:
+            - 1883
         volumes:
             - ./mosquitto/data/:/mosquitto/data
             - ./mosquitto/log/:/mosquitto/log
