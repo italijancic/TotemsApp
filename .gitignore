@@ -5,3 +5,6 @@ mosquitto/data/
 mosquitto/log/
 app/mqtt_app/__pycache__/
 app/site_project/__pycache__/
+app/mqtt_app/migrations/
+app/users/migrations/
+app/totems/migrations/
