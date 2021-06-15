@@ -24,7 +24,10 @@ SECRET_KEY = 'django-insecure-9szy39zdya=f+y8y9*$^_#3jfht#-kv*ghxh5h%u^7@*9l-f$(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '0.0.0.0',
+    'localhost',
+]
 
 # Application definition
 INSTALLED_APPS = [
@@ -35,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'channels',
-    'mqtt_app'
+    'mqtt_app',
+    'totems',
+    'users',
 ]
 
 MIDDLEWARE = [
