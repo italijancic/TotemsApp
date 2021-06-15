@@ -8,3 +8,4 @@ app/site_project/__pycache__/
 app/mqtt_app/migrations/
 app/users/migrations/
 app/totems/migrations/
+app/celerybeat-schedule
