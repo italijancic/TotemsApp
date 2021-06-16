@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.abspath('.'))
 # -- Project information -----------------------------------------------------
 
 project = 'Totems App Docs'
-copyright = '2021, italijancic@outlook.com'
+copyright = '2021, italijancic@dytsoluciones.com.ar'
 author = 'italijancic'
 
 # The full version, including alpha/beta/rc tags
