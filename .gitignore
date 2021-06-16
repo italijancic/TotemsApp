@@ -1,8 +1,8 @@
 .DS_Store
 .vscode/
 venv/
-mosquitto/data/
-mosquitto/log/
+mosquitto/data/mosquitto.db
+mosquitto/log/mosquitto.log
 app/mqtt_app/__pycache__/
 app/site_project/__pycache__/
 app/mqtt_app/migrations/

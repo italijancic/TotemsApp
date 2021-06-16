@@ -1,0 +1,282 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Project Description &mdash; Totems App Docs v1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="License" href="license.html" />
+    <link rel="prev" title="Welcome to Totems App documentation" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Totems App Docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Project Description</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#smart-totems">Smart Totems</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#web-application">Web Application</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#back-end">Back-end</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#web-server-django">Web Server: Django</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#data-base-mongodb">Data Base: MongoDB</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#mqtt-brocker-mosquitto">MQTT Brocker: Mosquitto</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#front-end">Front-end</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html#contact">Contact</a></li>
+<li class="toctree-l1"><a class="reference internal" href="help.html">Need Help</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Totems App Docs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Project Description</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/project.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="project-description">
+<h1>Project Description<a class="headerlink" href="#project-description" title="Permalink to this headline">¶</a></h1>
+<p>The global goal of project is desing and develop an Smart Totems
+whit the next main functionalities:</p>
+<ul class="simple">
+<li><p>Detect register personal of institution and authorize acces to building</p></li>
+<li><p>Measure body temperature</p></li>
+<li><p>Send information about user, and temperature to server</p></li>
+<li><p>If the acces is enable:
+- Notify to the user
+- Send data data to server
+- Server must to store all data on a data base</p></li>
+<li><p>At the end of the day an administrator of app can see the names a data of all person that have acces to building and his correspondient corporal temperature.</p></li>
+</ul>
+<p>To reach this the entire project is composed by:</p>
+<ul class="simple">
+<li><p>Smart Totems: Embedded hardware</p></li>
+<li><p>Web Application:
+- Bak-end
+- Front-end</p></li>
+</ul>
+</div>
+<div class="section" id="smart-totems">
+<h1>Smart Totems<a class="headerlink" href="#smart-totems" title="Permalink to this headline">¶</a></h1>
+<p>Bascically is the hardware of the develop. Consist on metal structure whit the embedded electronic inside.
+The embedded system must to contain:</p>
+<ul class="simple">
+<li><p>MCU</p></li>
+<li><p>Wirless conectivity</p></li>
+<li><p>Infrared Sensor temperature: the selected sensor for the application is MLX90614</p></li>
+<li><dl class="simple">
+<dt>HMI, composed of:</dt><dd><ul>
+<li><p>LCD 16X2</p></li>
+<li><p>Buzzer</p></li>
+<li><p>Two leds to indicate states of the global proces</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="web-application">
+<h1>Web Application<a class="headerlink" href="#web-application" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="back-end">
+<h2>Back-end<a class="headerlink" href="#back-end" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="web-server-django">
+<h3>Web Server: Django<a class="headerlink" href="#web-server-django" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="data-base-mongodb">
+<h3>Data Base: MongoDB<a class="headerlink" href="#data-base-mongodb" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="mqtt-brocker-mosquitto">
+<h3>MQTT Brocker: Mosquitto<a class="headerlink" href="#mqtt-brocker-mosquitto" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="front-end">
+<h2>Front-end<a class="headerlink" href="#front-end" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="license.html" class="btn btn-neutral float-right" title="License" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to Totems App documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, italijancic@outlook.com.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
