@@ -1,0 +1,11 @@
+# Suscribirse a un topic con mosquitto
+    docker exec -it mosquitto mosquitto_sub -h localhost -p 1883 -t "testmq" -v
+
+# Publicar a un topic con mosquitto
+    docker exec -it mosquitto mosquitto_pub -h localhost -p 1883 -t "testmq" -m "holamundo"
+
+# Suscribirse a un tópico con chasgimqtt utilizando mosquitto como broker
+    docker exec -it totems-web chasgimqtt -H localhost -p 1883 --topic=testmq:2 -n mqtt site_project.asgi:channel_layer -v
+
+# Ejecutar los workers
+    docker exec -it totems-web python3 manage.py runworker mqtt
