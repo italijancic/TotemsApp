@@ -6,19 +6,34 @@ services:
     web:
         build: ./app
         image: dev/totems_app:1.0.1-dev
+        container_name: totems-web
         command: python manage.py runserver 0.0.0.0:8000
         volumes:
             - ./app/:/usr/src/app/
         ports:
             - 8000:8000
             - 5555:5555
+        environment:
+            - CELERY_BROKER=redis://redis:6379/0
+            - CELERY_BACKEND=redis://redis:6379/0
         depends_on:
             - mongo
             - redis
             - mosquitto
+    celery:
+        build: ./app
+        image: dev/totems_app:1.0.1-dev
+        container_name: celery
+        command: celery -A site_project worker -B -l INFO
+        volumes:
+            - ./app/:/usr/src/app/        
+        depends_on:
+            - web
+            - redis
 
     mongo:
         image: mongo
+        container_name: mongo
         restart: always
         volumes:
             - mongo_data:/data/db
@@ -28,6 +43,7 @@ services:
 
     mongo-express:
         image: mongo-express
+        container_name: mongo-express
         restart: always
         ports:
             - 8081:8081
@@ -37,20 +53,20 @@ services:
 
     redis:
         image: redis:alpine
+        container_name: redis
         restart: always
 
     mosquitto:
         image: eclipse-mosquitto
+        container_name: mosquitto
         restart: always
-        expose:
-            - 1883
         volumes:
             - ./mosquitto/data/:/mosquitto/data
             - ./mosquitto/log/:/mosquitto/log
             - ./mosquitto/config/:/mosquitto/config
-        environment:
-            MOSQUITTO_USERNAME: totems
-            MOSQUITTO_PASSWORD: 123456789
+        # environment:
+        #     MOSQUITTO_USERNAME: totems
+        #     MOSQUITTO_PASSWORD: 123456789
 
 volumes:
   mongo_data:

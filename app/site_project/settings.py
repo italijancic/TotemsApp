@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -25,9 +26,10 @@ SECRET_KEY = 'django-insecure-9szy39zdya=f+y8y9*$^_#3jfht#-kv*ghxh5h%u^7@*9l-f$(
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '0.0.0.0',
+    '127.0.0.1',
     'localhost',
 ]
+# ALLOWED_HOSTS = []
 
 # Application definition
 INSTALLED_APPS = [
@@ -155,3 +157,6 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CELERY_BROKER_URL = os.environ.get("CELERY_BROKER","redis://redis:6379/0")
+CELERY_RESULT_BACKEND = os.environ.get("CELERY_BROKER","redis://redis:6379/0")
