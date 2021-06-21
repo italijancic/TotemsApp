@@ -20,11 +20,34 @@ services:
             - mongo
             - redis
             - mosquitto
+    
+    channel-backend:
+        build: ./app
+        image: dev/totems_app:1.0.1-dev
+        container_name: channel-backend
+        command: chasgimqtt -H mosquitto -p 1883 --topic=testmq:2 site_project.asgi:channel_layer -v
+        volumes:
+            - ./app/:/usr/src/app/
+        depends_on:
+            - web
+    
+    workers-server:
+        build: ./app
+        image: dev/totems_app:1.0.1-dev
+        container_name: workers-server
+        command: python3 manage.py runworker mqtt
+        volumes:
+            - ./app/:/usr/src/app/
+        depends_on:
+            - web
+            - channel-backend
+    
     celery:
         build: ./app
         image: dev/totems_app:1.0.1-dev
         container_name: celery
-        command: celery -A site_project worker -B -l INFO
+        command: celery -A site_project worker -l INFO
+        # command: celery -A site_project worker -B -l INFO #ACTIVAR BEAT
         volumes:
             - ./app/:/usr/src/app/        
         depends_on:

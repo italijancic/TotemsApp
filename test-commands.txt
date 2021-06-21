@@ -4,8 +4,23 @@
 # Publicar a un topic con mosquitto
     docker exec -it mosquitto mosquitto_pub -h localhost -p 1883 -t "testmq" -m "holamundo"
 
-# Suscribirse a un tópico con chasgimqtt utilizando mosquitto como broker
-    docker exec -it totems-web chasgimqtt -H localhost -p 1883 --topic=testmq:2 -n mqtt site_project.asgi:channel_layer -v
+# Conectar el canal "mqtt" mediante chasgimqtt con el broker "mosquitto" y que
+# transmita todo lo relacionado con el tópico "testmq"
+    docker exec -it totems-web chasgimqtt -H mosquitto -p 1883 --topic=testmq:2 -n mqtt site_project.asgi:channel_layer -v
 
 # Ejecutar los workers
     docker exec -it totems-web python3 manage.py runworker mqtt
+
+# Testear conectividad
+    #Comprobar capacidad de suscripción
+    # Desde mosquitto publicar y comprobar que en workers-server se recibe dicha publicación
+        docker exec -it mosquitto mosquitto_pub -h localhost -p 1883 -t "testmq" -m "holamundo"
+
+    #Comprobar capacidad de publicación    
+    # Desde moquitto susbribirse al tópico "testmq" y dejar abierta la consola
+        docker exec -it mosquitto mosquitto_sub -h localhost -p 1883 -t "testmq" -v
+    # Desde totems-web llamar a la tarea "mqtt_test" de manera asíncrona para que celery la ejecute
+        docker exec -it totems-web python manage.py shell
+            from mqtt_app.tasks import mqtt_test
+            mqtt_test.delay("Hola mundo desde totems web")
+    # El resultado debería ser observar en la consola de mosquitto el mensaje publicado
