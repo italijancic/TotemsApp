@@ -21,8 +21,9 @@ RUN pip install -r requirements.txt
 # copy entrypoint.sh
 # COPY ./entrypoint.sh .
 
-# copy project
-COPY . .
+# copy project ONLY FOR PRODUCTION
+# in developḿent the files are bind mounted with the volume
+# COPY . .
 
 # run entrypoint.sh
 # ENTRYPOINT [ "/usr/src/app/entrypoint.sh" ]
